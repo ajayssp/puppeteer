@@ -1,0 +1,29 @@
+{
+  "name": "puppeteer-jest-ui-framework",
+  "version": "1.0.0",
+  "description": "UI framework using Puppeteer and Jest",
+  "main": "jest",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ajay",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cross-env": "5.2.0",
+    "faker": "^4.1.0",
+    "jest": "^23.6.0",
+    "lodash": "4.17.11",
+    "mkdirp": "0.5.1",
+    "puppeteer": "^1.14.0",
+    "rimraf": "^2.6.3",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "jest-environment-node": "^24.5.0",
+    "babel-eslint": "^10.0.1",
+    "prettier": "^1.16.4"
+  }
+}
